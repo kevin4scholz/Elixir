@@ -37,5 +37,5 @@ docker run -d \
   --name elixir \
   --restart unless-stopped \
   -p 17690:17690 \
-  elixirprotocol/validator:v3
+  
   
