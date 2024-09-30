@@ -34,5 +34,4 @@ docker rm elixir
 docker pull elixirprotocol/validator:v3 --platform linux/amd64
 docker run -d \
   --env-file ./validator.env \
-  --name elixir \
   
