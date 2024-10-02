@@ -28,7 +28,7 @@ docker run -d \
   --restart unless-stopped \
   -p 17690:17690 \
   elixirprotocol/validator:v3
-  docker logs -f elixir
+  
   docker kill elixir
 docker rm elixir
 docker pull elixirprotocol/validator:v3 --platform linux/amd64
