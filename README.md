@@ -31,6 +31,6 @@ docker run -d \
   
   docker kill elixir
 docker rm elixir
-docker pull elixirprotocol/validator:v3 --platform linux/amd64
+
 
   
