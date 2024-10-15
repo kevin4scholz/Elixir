@@ -29,7 +29,7 @@ docker run -d \
   elixirprotocol/validator:v3
   
   docker kill elixir
-docker rm elixir
+
 
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
 sudo apt-get update
