@@ -26,7 +26,6 @@ docker run -d \
   --name elixir \
   --restart unless-stopped \
   -p 17690:17690 \
-  elixirprotocol/validator:v3
 
 
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
