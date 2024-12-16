@@ -31,4 +31,4 @@ docker run -d \
   --name elixir \
   --restart unless-stopped \
   -p 17690:17690 \
-for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; 
+for pkg in docker.io docker-doc 
