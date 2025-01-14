@@ -28,4 +28,3 @@ docker --version
 docker pull elixirprotocol/validator:v3
 docker run -d \
   --env-file ./validator.env \
-  
