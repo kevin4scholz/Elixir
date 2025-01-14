@@ -26,5 +26,4 @@ sudo chmod a+r
 # Docker version check
 docker --version
 docker pull elixirprotocol/validator:v3
-docker run -d \
 
