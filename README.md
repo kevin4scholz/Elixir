@@ -24,4 +24,4 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 sudo chmod a+r 
 
 # Docker version check
-docker --version
+
