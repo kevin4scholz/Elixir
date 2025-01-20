@@ -25,4 +25,3 @@ sudo chmod a+r
 
 # Docker version check
 docker --version
-docke
