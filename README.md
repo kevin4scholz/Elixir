@@ -19,5 +19,4 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
-sudo install -m 0755 -d /etc/apt/keyrings
-
+sudo install -m 0755 -d /etc/apt/
